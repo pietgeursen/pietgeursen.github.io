@@ -12,7 +12,7 @@
 <body>
   <!-- The header tag contains the content at the top of a division - in this case the body tag/division -->
   <header>
-    <h1>Why you should use Version Control and GitHub if you've never heard of them...</h1>
+    <h1>Why you should use Git and GitHub if you've never heard of them...</h1>
     <h4>23 January 2015</h4>
   </header>
 
@@ -20,26 +20,27 @@
   <article>
     <!-- Copy and paste as many sections as you want to add paragraphs to the article -->
 
-    <section>
-      <h2>What are the benefits of version control?</h2>
+    <section>        
+    <h2>So, what is Git then?</h2>
       <p>
-        Version control is a way of saving and keeping track of changes to files in a project. At first that might not sound like much, after all most people make occasional copies of stuff they're working on anyway. But version control takes that idea a whole lot further. Version control makes it easier to revert back to some earlier state if something goes wrong. 
-      </p>
-      <p>
-        The other great thing about version control is that it makes it HEAPS easier to share your work and collaborate with others.
-      </p>
-      <p>
-        Mostly version control gets used by programmers and developers but there are heaps of projects that can benefit from it. http://soundsoftware.ac.uk/why-version-control has a good flow diagram of whether or not you should consider using version control if you're not a programmer.
-      </p>
-      <p>
-        The reason programmers use version control is that software development is a surprisingly organic process. Projects grow in strange ways. Things branch off and flourish and need to be reincorporated. Or more likely they branch off and die and go nowhere. :) Humans are messy and need to be allowed to make mistakes to be creative. We need to iterate over problems to make progress. Version control helps you work on projects like this without going insane.          
+        Git is the flavour of version control system we'll look at but there are lots of others. See http://en.wikipedia.org/wiki/List_of_revision_control_software for a big old list. 
       </p>
     </section>
 
-    <section>        
-      <h2>Git</h2>
+    <section>
+      <h2>What are the benefits of version control?</h2>
       <p>
-        Git is the flavour of version control system we'll look at but there are lots of others. See http://en.wikipedia.org/wiki/List_of_revision_control_software for a big old list.
+        Version control is a way of saving and keeping track of changes to files in a project. At first that might not sound like much, after all most people make copies of stuff they're working on anyway. But version control takes that idea a whole lot further. Version control makes it easier to revert back to some earlier state if something goes wrong, helps you see what's changed in a file between changes, lets you selectively merge in new changes from others... Probably more importantly it makes it HEAPS easier to share your work and collaborate with others.
+      </p>
+      </section>
+
+      <section>
+      <h2>Is version control just for programmers?</h2>
+      <p>
+        Mostly version control gets used by programmers and developers but there are other projects that can benefit from it. http://soundsoftware.ac.uk/why-version-control has a good flow diagram of whether or not you should consider using version control if you're not a programmer.
+      </p>
+      <p>
+        The reason programmers use version control is that software development is a surprisingly organic process. Projects grow in strange ways. Things branch off and flourish and need to be reincorporated. Or more likely they branch off and die and go nowhere. :) Humans are messy and need to be allowed to make mistakes to be creative. We need to iterate over problems to make progress. Version control helps you work on projects like this without going insane.          
       </p>
     </section>
 
@@ -56,7 +57,7 @@
     <section>
       <h2>Why use GitHub to store your code?</h2>
       <p>
-        GitHub is a web service that you can use to store your projects that are controlled by git. When you store your project somewhere like GitHub it means others can contribute to the project in parallel. They can "clone" a copy of the code to their computer, do some work on it and then "push" it back. This is a bit of an over simplification, things get more complicated when there are bigger teams (They would probably create a pull request not just push it back) but that's the general idea.
+        GitHub is a web service that you can use to store your projects that are controlled by git. When you store your project somewhere like GitHub it means others can contribute to the project in parallel. They can "clone" a copy of the code to their computer, do some work on it and then "push" it back. This is a bit of an over simplification, things get more complicated when there are bigger teams (They would probably create a pull request because they wouldn't be allowed to just push it back) but that's the general idea.
       </p>
       <p>
         Even if your project is personal, hosting it somewhere else means you get a version backed up somewhere should something bad happen to your local copy. 
@@ -69,7 +70,7 @@
         I think it's easy to scare people off with command line stuff. I resisted learning version control for this very reason. It seems scary and there's a lot of lingo which is intimidating.
       </p>
       <p>
-        If you're sold and want to have a play with git, I really got a lot from <a href="http://pcottle.github.io/learnGitBranching/">this site</a> which has sort of gamified learning git commands. It's great because you can't break your computer or accidentally destroy an otherwise working project and it's really visual. 
+        If you're interested in learning and want to have a play with git, I really got a lot from <a href="http://pcottle.github.io/learnGitBranching/">this site</a> which has made learning git commands into a game. It's great because you can't break your computer or accidentally destroy an otherwise working project and it's really visual. 
       </p>
       <p>
         Once you get a little confidence with the basic lingo, git's built in help is awesome. I keep forgetting git commands at the moment. I just type "git" with no arguments and you get a list of all of them. From there I can often work out how to build up my commands by typing "git help command"
