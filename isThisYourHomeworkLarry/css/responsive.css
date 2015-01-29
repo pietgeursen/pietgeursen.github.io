@@ -33,16 +33,21 @@
 		background:none;
 		float:right;
 		font-size: 1.125em;
-		margin-right: 5%;
+		/*margin-right: 5%;*/
 		width: 45%;
 	}
 
 	#logo{
-		float: right;
-		margin-left: 5% ;
-		margin-right: 5% ;
+		float: left;
+		/*margin-left: 5% ;*/
+		/*margin-right: 5% ;*/
+		/*margin-bottom: 2.5%;*/
 		text-align: left;
-		width: 25%;
+		/*width: 25%;*/
+	}
+
+	#logo_img{
+		width: 20%;
 	}
 
 	h1{
