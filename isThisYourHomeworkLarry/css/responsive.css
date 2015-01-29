@@ -1,0 +1,66 @@
+@media screen and (min-width: 480px) {
+	/************************
+	TWO COLUMN LAYOUT
+	************************/
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+
+	}
+
+
+	/************************
+	PAGE: ABOUT
+	************************/
+	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+}
+
+@media screen and (min-width: 660px) {
+
+	/************************
+	HEADER
+	************************/	
+	nav{
+		background:none;
+		float:right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		width: 45%;
+	}
+
+	#logo{
+		float: right;
+		margin-left: 5% ;
+		margin-right: 5% ;
+		text-align: left;
+		width: 25%;
+	}
+
+	h1{
+		font-size: 2.5em;
+		margin-left:5%;
+	}
+
+	h2{
+		font-size: 0.825;
+		margin-top: 10px;
+		margin-left:5%;
+	}
+
+	header{
+		border-bottom: 5px solid #5a3f36;
+		margin-bottom: 60px;
+	}
+
+}
+
+
