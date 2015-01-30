@@ -20,6 +20,7 @@ a {
 /************************
 FONTS
 ************************/
+
 @font-face {
     font-family: MagnetoBold;
     src: url("../font/MAGNETOB.TTF") /* TTF file for CSS3 browsers */
@@ -29,8 +30,6 @@ FONTS
     font-family: MesquiteStd;
     src: url("../font/MesquiteStd.otf") /* TTF file for CSS3 browsers */
 }
-
-
 
 h3 {
 	margin: 0 0 1em 0;
@@ -62,18 +61,16 @@ header h2{
 }
 
 
-
 #logo {
 	max-width: 50%;	
 	margin: 0 auto;
 }
 
-#logo_img{
+#logo_img {
 	display: block;
 	border-radius: 100%;
 	margin: 0 auto;
-	width: 50%;
-	/*margin: 0 auto;*/
+	width: 50%;	
 }
 
 h1 {
@@ -82,7 +79,6 @@ h1 {
 	font-size: 1.75em;
 	font-weight: normal;
 	line-height: 0.8em;
-
 }
 
 h2 {
@@ -105,7 +101,6 @@ nav ul {
 	padding: 0;
 	list-style: none;
 	margin: 0 10px;
-
 }
 
 nav li {
@@ -121,15 +116,14 @@ nav a {
 /************************
 FOOTER
 ************************/
+
 footer {
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
 	color: #ccc;
-
 }
-
 
 
 /************************
@@ -153,7 +147,6 @@ DUDEISMS + CUSSWORDS
 	top: 20px;
 }
 
-
 #gallery{
 	margin: 0;
 	padding: 0;
@@ -164,23 +157,11 @@ DUDEISMS + CUSSWORDS
 	float: left;
 	margin: 30px 10px 30px;
 	font-size: 1.45em;
-
 }
 
 #gallery li:nth-child(2n) {
 	float: right;
 }
-
-
-
-
-
-
-/************************
-PAGE ABOUT
-************************/
-
-
 
 
 /************************
@@ -189,11 +170,7 @@ Colours
 
 /*Site Body*/
 body {
-	/*background-color: #e7c6bb;*/
 	background-color: #fff;
-	
-	/*background-color: #BABABF;*/
-
 	color: #999;
 }
 
@@ -207,7 +184,6 @@ header {
 nav {
 	background: #633121;
 }
-
 
 h1, h2{
 	color: #000;
