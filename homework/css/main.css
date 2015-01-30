@@ -59,16 +59,19 @@ header h2{
 
 .quote{
 	font-family: 'Open Sans', sans-serif;
-	float: left;
+	display: inline;	
 	color: #571d31;
+	margin: 0;
 }
 
 .character{
 	font-family: 'MesquiteStd', sans-serif;
-	float: right;
-	/*color:#273b47;*/
+	display: inline;	
+	margin: 0;	
 	color:#000;
-
+	position: relative;
+	left:10px;
+	top: 20px;
 }
 
 #logo {

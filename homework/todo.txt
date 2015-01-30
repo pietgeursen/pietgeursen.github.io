@@ -1,0 +1,16 @@
+
+CSS Tricks:
+Try box-sizing: border-box; so you don't have to manaully do margins and borders.
+
+Try adding the .group class to the container of floated elements so they have height.
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
+}
