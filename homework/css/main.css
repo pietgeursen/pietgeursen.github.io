@@ -162,7 +162,7 @@ DUDEISMS + CUSSWORDS
 
 #gallery li {
 	float: left;
-	margin: 2.5%;
+	margin: 30px 10px 30px;
 	font-size: 1.45em;
 
 }
