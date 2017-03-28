@@ -1,23 +1,10 @@
 {
-  "name": "tachyons",
-  "version": "4.6.2",
-  "description": "Functional CSS for humans",
-  "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
-  "files": [
-    "css",
-    "src"
-  ],
-  "repository": "tachyons-css/tachyons",
+  "name": "pietgeursen.github.io",
+  "version": "1.0.0",
+  "description": "Personal site",
+  "author": "pietgeursen",
+  "repository": "github.com/pietgeursen/pietgeursen.github.io",
   "keywords": [
-    "css",
-    "oocss",
-    "postcss",
-    "functional css",
-    "design",
-    "responsive",
-    "performance"
   ],
   "license": "MIT",
   "devDependencies": {
@@ -28,16 +15,6 @@
     "tachyons-cli": "^1.0.10",
     "watch": "^1.0.1"
   },
-  "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
-  ],
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
