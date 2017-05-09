@@ -31,7 +31,8 @@
  */
 /* Document
    ========================================================================== */
-html { font-family: sans-serif; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
+html { font-family: "Montserrat"; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
+h1, h2, h3, h4, h5, h6 { font-family: "Titillium Web"; /* 1 */ line-height: 1.15; /* 2 */ -ms-text-size-adjust: 100%; /* 3 */ -webkit-text-size-adjust: 100%; /* 3 */ }
 /* Sections
    ========================================================================== */
 /**
